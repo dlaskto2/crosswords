@@ -1,7 +1,7 @@
 const MIN_LENGTH = 2; // minimum expected length of word (note: if words of length 1 are to be allowed, function initializeVariables needs to be adjusted)
 const MAX_LENGTH = 7; // maximum expected length of word
-const PATH_TO_DICTIONARY = "C:\\Users\\TD\\Downloads\\collins.txt"; // path to the dictionary of allowed words
-const PATH_TO_INPUT = "C:\\Users\\TD\\Downloads\\input2.txt";  // path to the array pattern
+const PATH_TO_DICTIONARY = "collins.txt"; // path to the dictionary of allowed words
+const PATH_TO_INPUT = "input.txt";  // path to the array pattern
 const APPLY_AC = false; // whether to apply arc consistency domain filtering in each node of search tree
 
 const { initializeVariables, initializeConstraints, search } = require('./logic.js');

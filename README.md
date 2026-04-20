@@ -29,5 +29,15 @@ Finally, one can run the code by
 node main.js
 ```
 
+If a solution exists, the script outputs a random solution to the console, e.g.:
+```sh
+ABRAY
+VAUS*
+E*CH*
+NO*ER
+UKASE
+E*I*O
+```
+
 ### Additional notes
-By default, the arc consistency domain filtering technique is switched off as it results in a large overhead in simpler cases. However, if you try to run the method on a more complex or larger task, it may speed up the search for a solution. Arc consistency pruning can be enabled by setting the constant `APPLY_AC` in `main.js` to true.
+By default, the arc consistency domain filtering technique is switched off as it results in a large overhead in simpler cases. However, if you try to run the method on a more complex or larger task, it may speed up the search for a solution. Arc consistency pruning can be enabled by setting the constant `APPLY_AC` in `main.js` to `true`.
